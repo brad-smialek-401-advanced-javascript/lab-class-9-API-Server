@@ -7,7 +7,7 @@ API Server
 ### Author: Brad Smialek
 
 ### Links and Resources
-* [submission PR]()
+* [submission PR](https://github.com/brad-smialek-401-advanced-javascript/lab-class-9-API-Server/blob/master/README.md)
 * [travis]([![Build Status](https://www.travis-ci.com/brad-smialek-401-advanced-javascript/lab-class-9-API-Server.svg?branch=master)](https://www.travis-ci.com/brad-smialek-401-advanced-javascript/lab-class-9-API-Server))
 * [back-end](http://xyz.com) (when applicable)
 * [front-end](http://xyz.com) (when applicable)
