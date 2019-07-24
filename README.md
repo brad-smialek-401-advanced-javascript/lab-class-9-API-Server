@@ -44,4 +44,4 @@ Usage Notes or examples
 * What assertions need to be / should be made?
 
 #### UML
-![UML](./assets/apiserveruml.jpg)
+![UML](./assets/apiserveruml.JPG)
