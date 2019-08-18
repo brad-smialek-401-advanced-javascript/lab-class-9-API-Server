@@ -9,39 +9,56 @@ API Server
 ### Links and Resources
 * [submission PR](https://github.com/brad-smialek-401-advanced-javascript/lab-class-9-API-Server/blob/master/README.md)
 * [travis]([![Build Status](https://www.travis-ci.com/brad-smialek-401-advanced-javascript/lab-class-9-API-Server.svg?branch=master)](https://www.travis-ci.com/brad-smialek-401-advanced-javascript/lab-class-9-API-Server))
-* [back-end](http://xyz.com) (when applicable)
-* [front-end](http://xyz.com) (when applicable)
+* [Heroku](https://git.heroku.com/lab9-docs.git) 
+
 
 #### Documentation
-* [api docs](http://xyz.com) (API servers)
+* [jsdoc](https://git.heroku.com/lab9-docs.git/docs) 
 
 
 ### Modules
-#### `modulename.js`
-##### Exported Values and Methods
+#### `v1.js`
+#### `swagger.js`
+#### `categories-model.js`
+#### `categories-schema.js`
+#### `people-model.js`
+#### `products-model.js`
+#### `products-schema.js`
+#### `todo-model.js`
+#### `todo-schema.js`
+#### `memory.js`
+#### `mongo.js`s
+#### `app.js`
 
-###### `foo(thing) -> string`
-Usage Notes or examples
 
-###### `bar(array) -> array`
-Usage Notes or examples
+#### Exported Values and Methods
+##### `mongo.js`
+###### `jsonSchema -> Model`
+###### `get -> _id`
+###### `create -> record`
+###### `update -> _id , record`
+###### `delete -> _id`
+
+##### `memory.js`
+###### `get -> _id`
+###### `create -> entry`
+###### `update -> _id , entry`
+###### `delete -> _id`
+###### `sanitize-> entry`
 
 ### Setup
 #### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+* `PORT` - 3000
+* `MONGODB_URI=mongodb://localhost:27017/class09`  mongo instance/db
 
 #### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+* `node index.js`
+
   
 #### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+* npm test
+* supergoose.js
+* can connect
 
 #### UML
 ![UML](./assets/apiserveruml.JPG)
